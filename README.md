@@ -1,20 +1,42 @@
-# HamJam_2017
-In order to compile, the following libraries are necessary:
-libsdl1.2-dev 
-libsdl-image1.2-dev 
-libsdl-mixer1.2-dev 
-libsdl2-mixer-2.0-0
-libsdl-ttf2.0-dev
-libsdl2-dev
 
 
-Description:
-A simple score attack game; collect cakes to score points and get as high a score as possible before time runs out.
-Every 3 cakes eaten without touching the ground will icrease the multiplier by 1. Each cake eaten will reset the
-double jump and dash. Use this to your advantage and stay in air as long as you can to not reset your multiplier.
 
-Controls:
-[SPACE]: 		Jump/Double Jump
-[Z]: 			Dash
+Controls(Normal):
+
+[SPACE] : 	Jump
+
+[Z]: 		Kick
+
+[X]: 		Take out/throw bomba
+
 [LEFT ARROW]: 	Move left
+
 [RIGHT ARROW]: 	Move Right
+
+[RIGHT SHIFT]:	Quit Game
+
+[LEFT SHIFT]: 	Reset Game
+
+
+
+
+Controls(Combo Move):
+
+[UP ARROW]: 	Up
+
+[DOWN ARROW]:	Down
+
+[LEFT ARROW]: 	Left
+
+[RIGHT ARROW]: 	Right
+
+[SPACE]: 	Jump
+
+[Z]: 		Spin
+
+
+
+
+Combo Move Sequence: 
+UP, DOWN, LEFT, LEFT, RIGHT, RIGHT, DOWN, SPIN, DOWN, UP,
+LEFT, RIGHT, LEFT, DOWN, SPIN, UP, DOWN, JUMP
